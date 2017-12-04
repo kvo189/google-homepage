@@ -1,0 +1,134 @@
+html {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+
+main {
+  posi  tion: relative;
+  background: white;
+  height: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  resize: both;
+  overflow: auto;
+}
+
+a, a:visited{
+  text-decoration: none;
+}
+
+a:hover, a:active{
+  text-decoration: underline;
+}
+
+
+.toolbar {
+  position: absolute;
+  display:inline;
+  top: 0; left: 0; bottom: 0; right: 0;
+  padding: 0px 10px 0 10px;
+  top: 311px;
+}
+
+.toolbar a {
+  color: #000;
+  margin-right: 20px;
+}
+
+.toolbar div {
+  color: #000;
+}
+
+.txt {
+  opacity: 0.75;
+}
+
+.searchfield {
+  width: 528px;
+  height: 34px;
+}
+
+.menu {
+  position: relative;
+  top: -295px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  text-align:center;
+  min-width: 530px;
+}
+
+.searchbar {
+  width: 528px;
+  margin: 0 auto;
+}
+
+.left {
+  margin-right: auto!important;
+  margin-left: 15px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.googleapps {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  background-image: url('../icon1.png');
+  opacity: 0.55;
+  background-color: #cccccc;
+}
+
+.googleapps:hover{
+  opacity: 0.85;
+}
+
+.signin {
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  font-weight: bold;
+  border: 1px solid #4285f4;
+  background: #4285f4;
+  color: white!important;
+  text-decoration: none;
+  user-select: none;
+}
+
+.signin:active {
+  background: #3c78dc;
+}
+
+.banner {
+  display: block;
+  margin: 200px auto 0 auto;
+  width: 400px;
+  height: 135px;
+}
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  line-height: 27px;
+}
